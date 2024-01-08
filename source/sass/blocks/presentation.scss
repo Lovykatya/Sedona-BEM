@@ -1,0 +1,47 @@
+.presentation {
+  padding: 17px 0px 0px 0px;
+
+}
+
+.presentation__list {
+  padding-left: 28px;
+  padding-right: 26px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.presentation__title {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  padding: 0;
+}
+
+.presentation__description {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 38px;
+  margin: 0;
+}
+
+.presentation__video-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  width: 280px;
+  position: relative;
+}
+
+.presentation__video-button {
+  width: 48px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  background: none;
+  top: 63px;
+  left: 108px;
+  cursor: pointer;
+}

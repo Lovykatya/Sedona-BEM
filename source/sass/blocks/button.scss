@@ -1,0 +1,29 @@
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(129, 179, 210, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(102, 158, 192, 1);
+  }
+
+  &:active,
+  &:focus {
+    background-color: rgba(84, 150, 189, 1);
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background-color: rgba(229, 229, 229, 1);
+    color: rgb(255, 255, 255);
+  }
+}

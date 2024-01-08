@@ -1,0 +1,20 @@
+.page_body {
+  width: 320px;
+  min-height: 100%;
+  font-family: "ptsans", "ptsansbold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb(51, 51, 51);
+  background-color: rgb(229, 229, 229);
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
